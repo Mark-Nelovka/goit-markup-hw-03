@@ -1,0 +1,190 @@
+:root {
+  --logo: #2196f3;
+  --text: #212121;
+  --title: #ffffff;
+  --main-text-color: #757575;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
+/*------------Header------------*/
+
+.tt-decor {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo-second {
+  font-family: Raleway;
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-first {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-second-w {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.connect {
+  color: var(--main-text-color);
+}
+
+.item:hover,
+.item:focus {
+  color: var(--logo);
+}
+
+/*------------HERO------------*/
+
+.main-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title);
+  background: #2f303a;
+}
+
+.btn-first {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title);
+  background-color: var(--logo);
+}
+
+.btn-second {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+
+.discription-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.discription-p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.photo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 2.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+
+.command {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 2.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.view {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*------------FOOTER------------*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+.map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title);
+}
+
+.email,
+.tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
