@@ -19,37 +19,38 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <section>
-                <a class="tt-decor" lang="en" href="./index.html"> <span class="logo-first">Web</span><span class="logo-second">Studio</span></a>
-                    <ul class="tt-decor">
-                        <li><a class="item" href="./index.html">Студия</a></li>
-                        <li><a class="item" href="./portfolio.html">Портфолио</a></li>
-                        <li><a class="item" href="">Контакты</a></li>
-                    </ul>
-            </section>
-        </nav>
-            <section>   
-                <div>
-                    <a class="item connect" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a class="item connect" href="tel:+380961111111">tel:+380961111111</a>
-                </div>
-            </section>
-    </header>
+    <header class="header header-port">
+        <div class="container">
+            <nav class="page-header-container">
+                <a class="nav-logo" lang="en" href="./index.html"> <span class="logo-first">Web</span><span
+                        class="logo-second">Studio</span></a>
+                <ul class="nav-menu">
+                    <li class="menu"><a class="item" href="./index.html">Студия</a></li>
+                    <li class="menu"><a class="item" href="./portfolio.html">Портфолио</a></li>
+                    <li class="menu"><a class="item" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a class="item-connect" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="item-connect" href="tel:+380961111111">tel:+380961111111</a>
+            </div>
+        </div>
+     </header>
         <main>
             <section>
-                    <div>
-                        <ul class="tt-decor">
-                            <li><button class="item btn-second" type="button">Все</button>
-                            <li><button class="item btn-second" type="button">Веб-сайты</button>
-                            <li><button class="item btn-second" type="button">Приложения</button>
-                            <li><button class="item btn-second" type="button">Дизайн</button>
-                            <li><button class="item btn-second" type="button">Маркетинг</button>
+                    <div class="container" >
+                        <ul class="tt-decor container">
+                            <li class="menu-nav"><button class="item btn-second" type="button">Все</button>
+                            <li class="menu-nav"><button class="item btn-second" type="button">Веб-сайты</button>
+                            <li class="menu-nav"><button class="item btn-second" type="button">Приложения</button>
+                            <li class="menu-nav"><button class="item btn-second" type="button">Дизайн</button>
+                            <li class="menu-nav"><button class="item btn-second" type="button">Маркетинг</button>
                         </ul>
                     </div>
-
-                    <div>
+            </section>
+            
+            <section class="container main-job">
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img1-min.jpg" alt="">
@@ -57,10 +58,9 @@
                                 <p class="view">Веб-сайт</p>
                             </li>
                         </ul>
-                        </div>
-              
-                
-                    <div>
+                    </div>
+                    
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img2-min.jpg" alt="">
@@ -69,18 +69,18 @@
                             </li>
                         </ul>
                     </div>
-                
-                    <div>
+                    
+                    <div class="card-different">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img3-min.jpg" alt="">
                                 <h3 class="project">Ресторан <span lang="en">Seafood</span></h3>
                                 <p class="view">Приложение</p>
-                             </li>
+                            </li>
                         </ul>
                     </div>
-                
-                    <div>
+                    
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img4-min.jpg" alt="">
@@ -89,8 +89,8 @@
                             </li>
                         </ul>
                     </div>
-                
-                    <div>
+                    
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img5-min.jpg" alt="">
@@ -99,18 +99,18 @@
                             </li>
                         </ul>
                     </div>
-               
-                    <div>
+                    
+                    <div class="card-different">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img6-min.jpg" alt="">
                                 <h3 class="project" lang="en">Inspiration has no Borders</h3>
                                 <p class="view">Веб-сайт</p>
                             </li>
-                         </ul>
+                        </ul>
                     </div>
-                
-                    <div>
+                    
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img7-min.jpg" alt="">
@@ -119,8 +119,8 @@
                             </li>
                         </ul>
                     </div>
-               
-                    <div>
+                    
+                    <div class="card">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img8-min.jpg" alt="">
@@ -129,8 +129,8 @@
                             </li>
                         </ul>
                     </div>
-                
-                    <div>
+                    
+                    <div class="card-different">
                         <ul class="tt-decor">
                             <li>
                                 <img src="./images/im-port/img9-min.jpg" alt="">
@@ -143,13 +143,18 @@
         </main>
 
     <footer class="footer">
-        <a class="tt-decor" lang="en" href="./index.html"> <span class="logo-first">Web</span><span class="logo-second-w">Studio</span> </a>
-        <ul class="tt-decor">
-            <li><a class="map item tt-decor" href="https://goo.gl/maps/ncEjKkmwe7wm9tHb9" rel="noopener noreferrer">г.Киев,пр-т Леси Украинки,26</a>
-            </li>
-            <li><a class="email item tt-decor" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="tel item tt-decor" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="footer-section">
+            <a class="logo-footer" lang="en" href="./index.html"> <span class="logo-first">Web</span><span
+                    class="logo-second-w">Studio</span> </a>
+            <ul class="tt-decor">
+                <li class="footer-contact"><a class="map-item tt-decor" href="https://goo.gl/maps/ncEjKkmwe7wm9tHb9" rel="noopener noreferrer">г.Киев,пр-т
+                        Леси Украинки,26</a>
+                </li>
+                <li class="footer-contact"><a class="email item tt-decor" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-contact"><a class="tel item tt-decor" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+        
     </footer>
 
 </body>
